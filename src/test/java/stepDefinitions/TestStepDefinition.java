@@ -18,7 +18,7 @@ public class TestStepDefinition {
 		
 	@Given("^Launch kayak website$")
 	public void launch_kayak_website() throws Exception {
-		// Comment21
+		// Comment22
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver_win32/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
